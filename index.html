@@ -9,7 +9,12 @@
 </head>
 <body>
     <div class="container">
-        <input type="button" value="Calcular médias" onclick="calcMedia()">
+        <input type="text" name="" id="nomeInput" placeholder="Insira seu nome:">
+        <input type="number" name="valor1" id="valor1" placeholder="Insira a nota 1:">
+        <input type="number" name="valor2" id="valor2" placeholder="Insira a nota 2:">
+        <input type="number" name="valor3" id="valor3" placeholder="Insira a nota 3:">
+        <input type="button" class="calcMediaButton" value="Calcular media(Usando os dados acima)" onclick="calcInputMedia()">
+        <input type="button" value="Receber dados do aluno" class="receberDadosAluno" onclick="calcMedia()">
         <p id="showMedia"></p>
         <p id="showAprov"></p>
     </div>

@@ -9,13 +9,23 @@
     justify-content: center;
     flex-direction: column;
 }
-input{
+.receberDadosAluno{
     border-radius: 30px;
     background-color: #1ae4ff;
-    width: 300px;
+    width: 500px;
     height: 100px;
     font-size: 30px;
 }
 p{
     font-size: 50px;
+}
+input{
+    border-radius: 30px;
+    background-color: #1ae4ff;
+    width: 500px;
+    height: 100px;
+    font-size: 30px;
+}
+.calcMediaButton{
+    width: 700px;
 }
